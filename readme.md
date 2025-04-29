@@ -59,7 +59,7 @@
 
 ### Cloud Router
 - **Name**: `gcp-aws-router-cloud-dev`  
-- **ASN**: `64512`
+- **ASN**: `65412`
 
 ### HA VPN Gateway
 - **Name**: `aws-gcp-vpn-gateway-dev`
