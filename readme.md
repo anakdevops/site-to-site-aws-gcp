@@ -70,5 +70,6 @@
 - Copy Virtual Private Gateway
 - **Authentication**: Input pre-shared key from AWS Site-to-Site VPN configuration
 - **Create bgp** : ASN & IP from AWS Site-to-Site VPN configuration
+- Copy Inside IP Addresses
 ---
 
