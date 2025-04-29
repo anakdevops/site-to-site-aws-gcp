@@ -53,9 +53,9 @@
 
 ### Subnets
 - **Public Subnet**: `gcp-vpc-hybrid-public-subnet-dev`  
-  - CIDR: `11.0.1.0/16`
+  - CIDR: `11.0.1.0/24`
 - **Private Subnet**: `gcp-vpc-hybrid-private-subnet-dev`  
-  - CIDR: `11.0.2.0/16`
+  - CIDR: `11.0.2.0/24`
 
 ### Cloud Router
 - **Name**: `gcp-aws-router-cloud-dev`  
