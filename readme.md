@@ -66,7 +66,8 @@
 
 ### Peer VPN Configuration
 - **Peer Name**: `gcp-aws-peer-vpn-dev`  
-- **Interfaces**: 4  
+- **Interfaces**: 4
+- Copy Virtual Private Gateway
 - **Authentication**: Input pre-shared key from AWS Site-to-Site VPN configuration
 - **Create bgp** : ASN & IP from AWS Site-to-Site VPN configuration
 ---
