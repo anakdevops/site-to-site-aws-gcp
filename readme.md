@@ -10,9 +10,9 @@
 
 ### Subnets
 - **Public Subnet**: `aws-vpc-hybrid-public-subnet-prod`  
-  - CIDR: `10.0.1.0/16`
+  - CIDR: `10.0.1.0/24`
 - **Private Subnet**: `aws-vpc-hybrid-private-subnet-prod`  
-  - CIDR: `10.0.2.0/16`
+  - CIDR: `10.0.2.0/24`
 
 ### Internet Gateway
 - **Name**: `aws-vpc-hybrid-igw-prod`
