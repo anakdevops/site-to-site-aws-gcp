@@ -40,6 +40,9 @@
 - **Configuration Download**:  
   - **Vendor**: Generic  
   - **Protocol**: IKEv2
+ 
+### Enable route propagation
+- **Edit route table** : enable propagation
 
 ---
 
