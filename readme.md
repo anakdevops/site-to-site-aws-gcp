@@ -4,23 +4,29 @@
 
 ## AWS Configuration (Prod)
 
-### VPC
+### Create VPC
+- **Choose VPC and more**
 - **Name**: `aws-vpc-hybrid-prod`  
-- **CIDR IPv4**: `10.0.0.0/16`
+- **IPv4 CIDR block**: `10.0.0.0/16`
+- **Number of Availability Zones (AZs)** : 2
+- **Number of public subnets** : 2
+- **Number of private subnets** : 2
+
+## GCP Configuration (Dev)
+
+### VPC
+- **Name**: `gcp-vpc-hybrid-dev`
 
 ### Subnets
-- **Public Subnet**: `aws-vpc-hybrid-public-subnet-prod`  
-  - CIDR: `10.0.1.0/24`
-- **Private Subnet**: `aws-vpc-hybrid-private-subnet-prod`  
-  - CIDR: `10.0.2.0/24`
+- **Public Subnet**: `gcp-vpc-hybrid-public-subnet-dev`  
+  - CIDR: `11.0.1.0/24`
+- **Private Subnet**: `gcp-vpc-hybrid-private-subnet-dev`  
+  - CIDR: `11.0.2.0/24`
+ 
+## Create VM on AWS & GCP
+- test ping
 
-### Internet Gateway
-- **Name**: `aws-vpc-hybrid-igw-prod`
-
-### Route Tables
-- **Public Route Table**: `aws-vpc-hybrid-public-rt-prod`  
-  - Route: `0.0.0.0/0 → Internet Gateway`
-- **Private Route Table**: `aws-vpc-hybrid-private-rt-prod`
+## AWS Configuration (Prod)
 
 ### Customer Gateways (GCP IPs)
 - `aws-vpc-hybrid-cgw-1-prod`  
@@ -47,15 +53,6 @@
 ---
 
 ## GCP Configuration (Dev)
-
-### VPC
-- **Name**: `gcp-vpc-hybrid-dev`
-
-### Subnets
-- **Public Subnet**: `gcp-vpc-hybrid-public-subnet-dev`  
-  - CIDR: `11.0.1.0/24`
-- **Private Subnet**: `gcp-vpc-hybrid-private-subnet-dev`  
-  - CIDR: `11.0.2.0/24`
 
 ### Cloud Router
 - **Name**: `gcp-aws-router-cloud-dev`  
